@@ -92,44 +92,15 @@ git commit -m "Polished README and deploy workflow"
 git push -u origin main
 ```
 
-Security & Best Practices
 
-- Never check API keys into your repository. Use `.env.local` for development and GitHub Actions Secrets for CI builds.
-- Publicly deployed frontend code can expose any embedded key. For production, host the OpenAI key on a secure server or serverless function and proxy AI requests server-side.
-
-Need help? Next steps I can take for you
-- Push these updates to your GitHub repository.
-- Translate the README into Traditional Chinese.
-- Add screenshots, a demo GIF, or deployment badges for a more compelling landing page.
-- Provide a small serverless proxy (Firebase Function) example to keep your AI key private.
 
 Contact
 - Repo: https://github.com/Superior-curtis/BioFitAI
 
----
-Professional, modern, and ready to showcase. Tell me which extra polish you want (screenshots, Chinese README, or direct push to GitHub) and I’ll do it for you.
-
----
-If you want wording changes to the README (Chinese translation, more screenshots, or deployment badges), tell me what to add and I will update it.
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/46d1fd77-d68e-4eb0-b002-19ff6c819f2d
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/46d1fd77-d68e-4eb0-b002-19ff6c819f2d) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -173,13 +144,6 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/46d1fd77-d68e-4eb0-b002-19ff6c819f2d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
