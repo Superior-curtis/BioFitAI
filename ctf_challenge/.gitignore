@@ -1,0 +1,13 @@
+# Ignore Windows system folders
+AppData/
+Documents/
+Local Settings/
+My Documents/
+Program Files/
+Program Files (x86)/
+Temp/
+
+# Ignore files with specific extensions
+*.log
+*.bak
+*.tmp

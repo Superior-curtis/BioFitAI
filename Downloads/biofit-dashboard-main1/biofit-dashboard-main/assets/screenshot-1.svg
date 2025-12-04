@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#0ea5a4" />
+      <stop offset="1" stop-color="#7c3aed" />
+    </linearGradient>
+    <style>
+      .bg { fill: #0f172a; }
+      .card { fill: #0b1220; stroke: rgba(255,255,255,0.04); }
+      .title { font: 700 32px Inter, system-ui, sans-serif; fill: white; }
+      .sub { font: 400 16px Inter, system-ui, sans-serif; fill: #cbd5e1; }
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="720" rx="8"/>
+  <rect class="card" x="48" y="48" width="1184" height="624" rx="12"/>
+  <g transform="translate(80,88)">
+    <text class="title">Dashboard — Daily Summary</text>
+    <text x="0" y="42" class="sub">Calories, macronutrients, and AI highlights</text>
+
+    <rect x="0" y="72" width="520" height="180" rx="10" fill="url(#g1)" opacity="0.12"/>
+    <rect x="540" y="72" width="600" height="180" rx="10" fill="#071227"/>
+
+    <g transform="translate(0,270)">
+      <rect width="1160" height="300" rx="10" fill="#07122b"/>
+      <text x="20" y="34" class="sub">Weekly calories (demo chart)</text>
+      <g transform="translate(20,50)">
+        <rect width="1120" height="220" rx="8" fill="#071227"/>
+        <g fill="#22c55e" opacity="0.9">
+          <rect x="20" y="160" width="40" height="60" rx="4"/>
+          <rect x="80" y="120" width="40" height="100" rx="4"/>
+          <rect x="140" y="80" width="40" height="140" rx="4"/>
+          <rect x="200" y="40" width="40" height="180" rx="4"/>
+          <rect x="260" y="100" width="40" height="120" rx="4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
