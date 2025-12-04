@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="360" viewBox="0 0 800 360">
+  <style>
+    .bg{fill:#0b1220}
+    .text{font:700 18px Inter, system-ui, sans-serif; fill:#fff}
+    .muted{font:400 13px Inter, system-ui, sans-serif; fill:#9fb0c8}
+  </style>
+  <rect class="bg" width="800" height="360" rx="8"/>
+  <g transform="translate(28,28)">
+    <text class="text">BioFit AI — Quick demo</text>
+    <text x="0" y="28" class="muted">Animated recommendation flow</text>
+
+    <g transform="translate(0,60)">
+      <rect x="0" y="0" width="220" height="80" rx="8" fill="#071227" stroke="#123"/>
+      <text x="16" y="30" class="muted">User data</text>
+
+      <rect x="260" y="0" width="220" height="80" rx="8" fill="#071227" stroke="#123"/>
+      <text x="276" y="30" class="muted">AI engine</text>
+
+      <rect x="520" y="0" width="220" height="80" rx="8" fill="#071227" stroke="#123"/>
+      <text x="536" y="30" class="muted">Recommendation</text>
+
+      <path d="M220 40 C 240 20, 260 20, 280 40" fill="none" stroke="#22c55e" stroke-width="3">
+        <animate attributeName="stroke-dashoffset" from="300" to="0" dur="1.6s" repeatCount="indefinite" />
+      </path>
+      <path d="M480 40 C 500 60, 520 60, 540 40" fill="none" stroke="#7c3aed" stroke-width="3">
+        <animate attributeName="stroke-dashoffset" from="300" to="0" dur="1.6s" repeatCount="indefinite" />
+      </path>
+
+      <g transform="translate(0,120)">
+        <rect x="0" y="0" width="740" height="120" rx="8" fill="#041227"/>
+        <text x="20" y="30" class="muted">Recommendation preview: Increase protein, adjust timing</text>
+      </g>
+    </g>
+  </g>
+</svg>
